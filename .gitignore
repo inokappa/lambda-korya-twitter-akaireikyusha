@@ -1,0 +1,9 @@
+config.ini
+*.zip
+BeautifulSoup*
+oauthlib
+oauthlib*
+python_twitter*
+requests*
+setup.cfg
+twitter
