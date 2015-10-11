@@ -20,10 +20,11 @@
 - Write Lambda function code
 
 ```sh
+% cd path/to/dir
 % vim lambda_function.py
 ```
 
-- Creata Lambda function
+- Creata Lambda function and function code
 
 ```sh
 % zip -r your_function.zip *
@@ -36,7 +37,7 @@
     --zip-file fileb://your_function.zip
 ```
 
-- Update function
+- Update function code
 
 ```sh
 % zip -r your_function.zip * 

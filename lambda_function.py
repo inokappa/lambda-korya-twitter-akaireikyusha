@@ -38,5 +38,6 @@ def lambda_handler (event, context):
         )
     
     # ランダムに作品名と放映日時を出力
-    # print u"赤い霊柩車シリーズ: " + reikyusha()
-    print api.PostUpdate(u"赤い霊柩車シリーズ: " + reikyusha())
+    episode = reikyusha()
+    print u"赤い霊柩車シリーズ: " + episode
+    print api.PostUpdate(u"赤い霊柩車シリーズ: " + episode)
